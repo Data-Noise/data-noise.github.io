@@ -66,7 +66,7 @@ border-top-left-radius: 0%;
 .button-tools{
 
     background-image: url(button1.png);
-    background-size: contain;
+    background-size: cover; 
 
     /* border-top-left-radius: 35px; */
     /* border-bottom-left-radius: 35px; */
@@ -82,12 +82,13 @@ border-top-left-radius: 0%;
     font-size: 150%;
     font-style: normal;
     color:aliceblue;
+    transition: 1.0s;
 }
 
 .button-tools-start
 {
     background-image: url(button1.png);
-    background-size: contain;
+    background-size: cover;
 
     /* border-top-left-radius: 35px; */
     /* border-bottom-left-radius: 50px; */
@@ -104,12 +105,20 @@ border-top-left-radius: 0%;
     font-size: 150%;
     font-style: normal;
     color:aliceblue;
+    transition: 1.0s;
 
+}
+
+.button-tools-start:hover
+{
+
+    background-image: url(button1_act.png);
+    background-size: cover;   
 }
 
 .button-tools-end{
     background-image: url(button1.png);
-    background-size: contain;
+    background-size: cover; 
 
     /* border-top-left-radius: 35px; */
     /* border-bottom-left-radius: 50px; */
@@ -126,9 +135,22 @@ border-top-left-radius: 0%;
     font-size: 150%;
     font-style: normal;
     color:aliceblue;
+    transition: 1.0s;
 
 }
 
+.button-tools-end:hover
+{
+
+    background-image: url(button1_act.png);
+    background-size: cover;   
+}
+.button-tools:hover
+{
+
+    background-image: url(button1_act.png);
+    background-size: cover;   
+}
 
 .logo{
     /* background-color: rgb(91, 28, 149); */
